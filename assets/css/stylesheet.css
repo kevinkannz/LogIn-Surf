@@ -95,10 +95,6 @@ section {
     margin: 80px;
 }
 
-h1 {
-    color: #fc4a1a;
-}
-
 h2 {
     font-size: 50px;
     color: #fc4a1a;
@@ -141,6 +137,10 @@ a {
     color: #fc4a1a;
     text-decoration: none;
     margin-top: -13px;
+}
+
+.fas {
+    color: #fc4a1a;
 }
 
 ::placeholder {
