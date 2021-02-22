@@ -9,7 +9,7 @@ body {
 }
 
 #waveBttm {
-    margin-top: -200px;
+    margin-top: -100px;
 }
 
 #waveBttmReg {
@@ -45,6 +45,13 @@ body {
     flex-direction: column;
     margin-top: -680px;
     margin-left: 750px;
+    position: relative;
+}
+
+#vans {
+    flex-direction: column;
+    margin-top: -500px;
+    margin-left: 820px;
     position: relative;
 }
 
@@ -86,6 +93,10 @@ section {
     align-items: center;
     width: 400px;
     margin: 80px;
+}
+
+h1 {
+    color: #fc4a1a;
 }
 
 h2 {
