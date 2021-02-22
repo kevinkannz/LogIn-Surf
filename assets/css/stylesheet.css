@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+body {
+    background-color: rgb(233, 235, 235);
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+#waveTop {
+    margin-bottom: -310px;
+}
+
+#waveBttm {
+    margin-top: -200px;
+}
+
+#waveBttmReg {
+    margin-top: -300px;
+}
+
+#primerStack {
+    margin-right: 400px;
+    margin-top: 0px;
+    margin-bottom: -500px;
+}
+
+#segundoStack {
+    margin-left: 400px;
+    margin-bottom: 900px;
+    margin-top: 166px;
+}
+
+#inputRegistro {
+    width: 300px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#recordar {
+    margin-top: 10px;
+    margin-right: 2px;
+    margin-left: -20px;
+}
+
+#surfBoard {
+    flex-direction: column;
+    margin-top: -680px;
+    margin-left: 750px;
+    position: relative;
+}
+
+#imagenUser {
+    width: 80px;
+    height: 80px;
+    margin-top: 0px;
+    background-color: white;
+    background-attachment: center;
+    background-repeat: no-repeat;
+    border-radius: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+section {
+    background-color: rgb(226, 222, 222);
+    text-align: center;
+    flex-direction: column;
+    height: 550px;
+    position: relative;
+    z-index: 9998;
+    border-radius: 15px;
+    box-shadow: 0px 0px 60px rgb(61, 61, 61);
+    padding: 50px;
+    margin-bottom: -300px;
+    margin-left: 100px;
+}
+
+#caja {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 100px;
+    align-items: center;
+    width: 400px;
+    margin: 80px;
+}
+
+h2 {
+    font-size: 50px;
+    color: #fc4a1a;
+    margin-bottom: 0%;
+    margin-top: 860px;
+    text-align: center;
+}
+
+hr.new {
+    height: 5px;
+    width: 950px;
+    margin: auto;
+    background-color: #0099ff;
+}
+
+#cajaRegistro {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    color: #fc4a1a;
+    text-align: left;
+    width: 1150px;
+    margin-left: 500px;
+    margin: 80px;
+    background-image: url(../img/waves.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-position: center;
+}
+
+label {
+    margin-right: -30px;
+    text-align: end;
+}
+
+a {
+    color: #fc4a1a;
+    text-decoration: none;
+    margin-top: -13px;
+}
+
+::placeholder {
+    color: rgb(29, 29, 29);
+    opacity: 1;
+    padding: 30px;
+}
+
+#inputIndex {
+    width: 300px;
+    margin: 5px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    font-size: smaller;
+}
+
+button {
+    width: 250px;
+    margin-top: 20px;
+    height: 3em;
+    border-radius: 10px;
+    background-color: rgb(36, 37, 37);
+    color: aliceblue;
+    font-size: small;
+}
+
+button:hover {
+    background-image: linear-gradient(#FF512F, #DD2476);
+    color: white;
+}
